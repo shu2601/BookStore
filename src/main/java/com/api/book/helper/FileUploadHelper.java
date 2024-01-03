@@ -13,10 +13,10 @@ import org.springframework.web.multipart.MultipartFile;
 public class FileUploadHelper {
 
 	//local machin path
-//	public final String UPLOAD_DIR = "D:\\sts\\workspaceP\\restAPIBook\\src\\main\\resources\\static\\image";
+public final String UPLOAD_DIR = "D:\\sts\\workspaceP\\restAPIBook\\src\\main\\resources\\static\\image";
 	
 	//static machine path
-	public final String UPLOAD_DIR = new ClassPathResource("static/image").getFile().getAbsolutePath();
+	//public final String UPLOAD_DIR = new ClassPathResource("static/image").getFile().getAbsolutePath();
 	
 	public FileUploadHelper()throws IOException{
 		
